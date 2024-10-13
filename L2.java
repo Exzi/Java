@@ -1,4 +1,4 @@
-public class Main {
+public class L2 {
     public static String buildUrl(String baseUrl, String params) {
         // Разделяем строку на пары ключ-значение
         String[] paramPairs = params.split("&");
