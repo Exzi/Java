@@ -29,4 +29,3 @@ public class L2_2 {
         System.out.println(csvResult);
     }
 }
- 
