@@ -14,4 +14,18 @@ public class L2_2 {
         }
         
         return csvBuilder.toString().trim(); 
+    }
+    public static void main(String[] args) {
+        // Пример данных
+        String[] headers = {"Name", "Age", "City"};
+        String[][] data = {
+            {"John", "30", "New York"},
+            {"Alice", "25", "Los Angeles"},
+            {"Bob", "35", "Chicago"}
+        };
+        
+        // Генерация CSV строки
+        String csvResult = generateCSV(headers, data);
+        System.out.println(csvResult);
+    }
 }
