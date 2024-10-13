@@ -1,4 +1,4 @@
-public class L2 {
+public class L2_1 {
     public static String buildUrl(String baseUrl, String params) {
         String[] paramPairs = params.split("&");
         
