@@ -48,7 +48,7 @@ private static void logToFile(int min, int max) {
 
 public static void main(String[] args) {
     
-    int[] array = {15, 3, 9, 7, -2, 10};
+    int[] array = {7, 85, 90, 73, -2, 10};
 
     
     findMinMax(array);
