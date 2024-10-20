@@ -3,7 +3,7 @@ import java.util.Set;
 public class L3_2 {
 
     public static int[] getUniqueElements (int[] arr) {
-        Set<Intger> uniqueSet = new HashSet<>();
+        Set<Integer> uniqueSet = new HashSet<>();
         for (int num : arr) {
             uniqueSet.add(num);
         }
